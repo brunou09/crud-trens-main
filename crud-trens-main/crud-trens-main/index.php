@@ -47,6 +47,12 @@ $resultado = $conexao->query('SELECT * FROM trens ORDER BY prefixo_trem');
 <body>
     <div class="titulo">
         <h1>Frota Ferroviária</h1>
+            <nav>
+                <a href="index.php">Trens</a>
+                <a href="painel.php">Painel</a>
+                <a href="leituras.php">Leituras</a>
+                <a href="Simulador.php">Simulador</a> 
+            </nav>
         <a href="formulario.php" class="botao botao-primario">Novo trem</a>
     </div>
 
